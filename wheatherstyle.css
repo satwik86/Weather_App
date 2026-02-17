@@ -1,0 +1,99 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image: url("https://imgs.search.brave.com/geBpXHBIg1Qo0bB7vxku58KYg8cYumj3nxBkMKvRPn0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTMv/NzMyLzg3NS9zbWFs/bC9jbG91ZHMtYW5k/LXN0YXJzLXRoZS1z/dW4tb24tYS1ibHVl/LWJhY2tncm91bmQt/Y2hpbGRyZW4tcy1p/bGx1c3RyYXRpb24t/b2YtdGhlLXNreS1p/bi1hLXBhcGVyLWRl/Y29yYXRpdmUtc3R5/bGUtM2QtdmVjdG9y/LmpwZw");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b1eae2;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(49, 37, 94, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    background-color: #292828;
+    border: none;
+    border-radius: 5px;
+    color: #f6f3f3;
+    outline: none;
+    font-size: 20px;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #00cfea;
+    border: none;
+    border-radius: 5px;
+    color: #0d0101;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cb8af0;
+}
+
+#weather-info {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    color: #cfe95c;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s ease-in-out;
+    font-family:  Geneva, Verdana, sans-serif;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#error-message {
+    color: #ea5e0d;
+    margin-top: 20px;
+    font-size: 28px;
+    text-align: center;
+
+}
